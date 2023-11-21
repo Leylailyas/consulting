@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mynav{
+    display: flex;
+    gap: 800px;
+    justify-content: space-around;
+}
+.boyimgg{
+    background-image: url(../img/h1_hero.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.boyimgg{
+    padding-top: 200px;
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container{
+    width: 85%;
+}
+.strategy:hover {
+    background-color:#ec3a55;
+}
+.insurance:hover {
+    background-color:#ec3a55;
+}
+.audit:hover {
+    background-color:#ec3a55;
+}
+.boyandgirl{
+    background-image: url(../img/section_bg02.jpg);
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
